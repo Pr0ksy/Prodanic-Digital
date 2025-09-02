@@ -6,7 +6,6 @@ function closeModal(id) {
   document.getElementById(id).style.display = 'none';
 }
 
-// Klik van prozora zatvara modal
 window.onclick = function(event) {
   const modals = document.querySelectorAll('.modal');
   modals.forEach(m => {
@@ -14,4 +13,5 @@ window.onclick = function(event) {
       m.style.display = 'none';
     }
   });
+
 }
