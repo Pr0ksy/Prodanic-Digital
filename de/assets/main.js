@@ -93,38 +93,39 @@ const projectsSwiper = new Swiper(".projects__slider", {
 document.addEventListener("DOMContentLoaded", () => {
   const details = document.querySelectorAll(".project__details");
 
-  const tooltipData = [
-    `
-    <div><i class="ri-time-line"></i>4 days of development</div>
-    <div><i class="ri-lightbulb-flash-fill"></i>Great collaboration with the client</div>
-    <div><i class="ri-star-half-fill"></i>5/5</div>
-    `,
-    `
-    <div><i class="ri-time-line"></i>7 days of development</div>
-    <div><i class="ri-code-box-line"></i>Booking System</div>
-    <div><i class="ri-star-fill"></i>4/5</div>
-    `,
-    `
-    <div><i class="ri-time-line"></i>14 days of development</div>
-    <div><i class="ri-rocket-line"></i>Advanced Web Application</div>
-    <div><i class="ri-star-fill"></i>5/5</div>
-    `,
-    `
-    <div><i class="ri-time-line"></i>2 days of development</div>
-    <div><i class="ri-brush-fill"></i>Design-focused project</div>
-    <div><i class="ri-star-fill"></i>5/5</div>
-    `,
-    `
-    <div><i class="ri-time-line"></i>6 days of development</div>
-    <div><i class="ri-settings-3-line"></i>Backend optimization</div>
-    <div><i class="ri-star-fill"></i>4/5</div>
-    `,
-    `
-    <div><i class="ri-time-line"></i>8 days of development</div>
-    <div><i class="ri-lightbulb-flash-fill"></i>One of the most complex projects</div>
-    <div><i class="ri-star-half-fill"></i>4.5/5</div>
-    `,
-  ];
+ const tooltipData = [
+  `
+  <div><i class="ri-time-line"></i>4 Tage Entwicklung</div>
+  <div><i class="ri-lightbulb-flash-fill"></i>Tolle Zusammenarbeit mit dem Kunden</div>
+  <div><i class="ri-star-half-fill"></i>5/5</div>
+  `,
+  `
+  <div><i class="ri-time-line"></i>7 Tage Entwicklung</div>
+  <div><i class="ri-code-box-line"></i>Buchungssystem</div>
+  <div><i class="ri-star-fill"></i>4/5</div>
+  `,
+  `
+  <div><i class="ri-time-line"></i>14 Tage Entwicklung</div>
+  <div><i class="ri-rocket-line"></i>Erweiterte Web-Anwendung</div>
+  <div><i class="ri-star-fill"></i>5/5</div>
+  `,
+  `
+  <div><i class="ri-time-line"></i>2 Tage Entwicklung</div>
+  <div><i class="ri-brush-fill"></i>Designorientiertes Projekt</div>
+  <div><i class="ri-star-fill"></i>5/5</div>
+  `,
+  `
+  <div><i class="ri-time-line"></i>6 Tage Entwicklung</div>
+  <div><i class="ri-settings-3-line"></i>Backend-Optimierung</div>
+  <div><i class="ri-star-fill"></i>4/5</div>
+  `,
+  `
+  <div><i class="ri-time-line"></i>8 Tage Entwicklung</div>
+  <div><i class="ri-lightbulb-flash-fill"></i>Eines der komplexesten Projekte</div>
+  <div><i class="ri-star-half-fill"></i>4.5/5</div>
+  `,
+];
+
 
   details.forEach((el, i) => {
     const tooltip = document.createElement("div");
@@ -198,3 +199,4 @@ document.addEventListener("DOMContentLoaded", () => {
       preloader.classList.add("hidden");
     }, 800); // kratko zadržavanje pre nestajanja
   });
+
