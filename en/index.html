@@ -827,22 +827,22 @@
           if (response.ok) {
             Swal.fire({
               title: "Uspešno poslato!",
-              text: "Hvala na poruci, javićemo se uskoro.",
+              text: "Thank you for message, we'll reach out as soon as possible!",
               icon: "success",
               confirmButtonColor: "#007cf0"
             });
             form.reset();
           } else {
             Swal.fire({
-              title: "Greška!",
-              text: "Došlo je do problema, pokušaj ponovo kasnije.",
+              title: "Error!",
+              text: "I don't know what to say except its error...",
               icon: "error",
               confirmButtonColor: "#007cf0"
             });
           }
         } catch (error) {
           Swal.fire({
-            title: "Greška u mreži!",
+            title: "Network Error!",
             text: "Proveri internet konekciju i pokušaj ponovo.",
             icon: "warning",
             confirmButtonColor: "#007cf0"
@@ -853,6 +853,7 @@
     </script>
   </body>
 </html>
+
 
 
 
