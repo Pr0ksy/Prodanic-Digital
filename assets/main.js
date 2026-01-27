@@ -28,33 +28,33 @@ document.addEventListener("DOMContentLoaded", () => {
   tl.from(".navbar", {
     y: -50,
     opacity: 0,
-    duration: 0.8,
+    duration: 0.3,
   })
     .from(".hero__badge", {
       y: 30,
       opacity: 0,
-      duration: 0.6,
+      duration: 0.2,
     })
     .from(".hero h1", {
       y: 40,
       opacity: 0,
       scale: 0.95,
-      duration: 0.7,
+      duration: 0.3,
     })
     .from(".hero p", {
       y: 25,
       opacity: 0,
-      duration: 0.6,
+      duration: 0.3,
     })
     .from(".hero__buttons", {
       y: 20,
       opacity: 0,
-      duration: 0.5,
+      duration: 0.3,
     })
     tl.from(".hero__link", {
     y: 20,
     opacity: 0,
-    duration: 0.6,
+    duration: 0.4,
     clearProps: "all", 
     }, "-=0.2")
     .from(".banner__wrapper", {
@@ -198,3 +198,4 @@ document.addEventListener("DOMContentLoaded", () => {
       preloader.classList.add("hidden");
     }, 800); // kratko zadržavanje pre nestajanja
   });
+
